@@ -1,0 +1,48 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "appgatewayapi",
+      "TransformByOcelotConfig": false,
+      "Config": [
+        {
+          "Name": "AppGatewayApi",
+          "Version": "1.0",
+          "Url": "http://localhost:5055/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "account",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Account",
+          "Version": "1.0",
+          "Url": "http://localhost:5055/account/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "answer",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Answer",
+          "Version": "1.0",
+          "Url": "http://localhost:5055/answer/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "question",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Question",
+          "Version": "1.0",
+          "Url": "http://localhost:5055/question/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}
